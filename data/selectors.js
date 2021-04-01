@@ -12,6 +12,8 @@ const elements = {
     "image": "span.ant-upload",
     "submit": ".ant-btn",
     "tryAgain": ".btn-primary",
+    "errorRequired": '//div[contains(@class, "ant-form-item-control")][. //input[@id="name"]]//div[@role="alert"]'
+    //div[contains(@class, "ant-form-item-control")][. //input[@id="name"]]//div[@role="alert"]
 }
 
 module.exports = elements;

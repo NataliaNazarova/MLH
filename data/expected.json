@@ -10,5 +10,6 @@
   "ageLabel": "3. How old is your Hero?",
   "storyLabel": "4. What type of story would you like to read?",
   "imagelabel": "5. Upload an image (optional)",
-  "submitText": "Create!"
+  "submitText": "Create!",
+  "namePlaceholder": "Hero's name"
 }

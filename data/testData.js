@@ -1,5 +1,13 @@
 const name = {
-    "default": "LadyBug007"
+    "default": "LadyBug007",
+    "digits": "1234567890",
+    "oneSymbol": "a",
+    "maxSymbol": "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+    "moreMaxSymbol": "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwq",
+    "maxDigits": "12345678901234567890123456789012345678901234567890123456789012345678901234567890",
+    "alphabet": "qwertyuiopasdfghjklzxcvbnm",
+    "lowerUpper": "ABCabc",
+    "specialSymbol": "1(){}[]|`¬¦! \"£$%^&*\"<>:;#~_-+=,@"
 }
 
 const gender = {
@@ -10,6 +18,7 @@ const gender = {
 
 const age = {
     "default": "12234567890"
+
 }
 
 const story = {
