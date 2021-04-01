@@ -7,8 +7,12 @@ describe('Required fields and story created', function () {
 
     describe('Positive cases', function () {
 
-        beforeEach('Open App', function () {
+        before('Open App', function () {
             browser.url('');
+        });
+
+        beforeEach(function () {
+            browser.refresh();
         });
 
         it('TC-028 Name Field  placeholder = "Hero\'s name"', function () {
@@ -74,6 +78,14 @@ describe('Required fields and story created', function () {
     }),
 
     describe('Negative cases', function () {
+
+        before('Open App', function () {
+            browser.url('');
+        });
+
+        beforeEach(function () {
+            browser.refresh();
+        });
 
         it('TC-042 Name field accepts 71 symbols', function () {
         $(sel.name).setValue(name.moreMaxSymbol);
