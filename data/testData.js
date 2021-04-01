@@ -7,7 +7,9 @@ const name = {
     "maxDigits": "12345678901234567890123456789012345678901234567890123456789012345678901234567890",
     "alphabet": "qwertyuiopasdfghjklzxcvbnm",
     "lowerUpper": "ABCabc",
-    "specialSymbol": "1(){}[]|`¬¦! \"£$%^&*\"<>:;#~_-+=,@"
+    "specialSymbol": "1(){}[]|`¬¦! \"£$%^&*\"<>:;#~_-+=,@",
+    "symbolWithSpace": "abc abc",
+    "cyrillicSymbol": "Волк"
 }
 
 const gender = {

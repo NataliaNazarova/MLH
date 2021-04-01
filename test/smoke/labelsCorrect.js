@@ -17,16 +17,15 @@ describe('Labels are correct', function () { //define suite title by passing a s
             expect(instruction).toEqual(exp.instruction);
         });
 
-        //commented until bug fix
-        // it('TC-017 Name field label = 1. What is your Hero\'s name?', function () {
-        //     let label = $$(sel.requiredLabel)[0].getText();
-        //     expect(label).toEqual(exp.nameLabel);
-        // });
+        it('TC-017 Name field label = 1. What is your Hero\'s name?', function () {
+            let label = $$(sel.requiredLabel)[0].getText();
+            expect(label).toEqual(exp.nameLabel);
+        });
 
-        // it('TC-018 Gender field label = "2. Please choose a gender."', function () {
-        //     let label = $$(sel.requiredLabel)[1].getText();
-        //     expect(label).toEqual(exp.genderLabel);
-        // });
+        it('TC-018 Gender field label = "2. Please choose a gender."', function () {
+            let label = $$(sel.requiredLabel)[1].getText();
+            expect(label).toEqual(exp.genderLabel);
+        });
 
         it('TC-019 The first button label = "he"', function () {
             let genderHe = $$(sel.radioButtonsLabel)[0].getText();
@@ -59,9 +58,9 @@ describe('Labels are correct', function () { //define suite title by passing a s
             expect(label).toEqual(exp.imagelabel);
         });
 
-        // it('TC-025 Submit button label = "Create!"', function () {
-        //     let submit = $(sel.submit).getText();
-        //     expect(submit).toEqual(exp.submitText);
-        // });
+        it('TC-025 Submit button label = "Create!"', function () {
+            let submit = $(sel.submit).getText();
+            expect(submit).toEqual(exp.submitText);
+        });
 
 });
